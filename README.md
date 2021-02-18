@@ -10,7 +10,7 @@ This code is set up with the cupy library to compute numpy on the GPU.
 To run it with cpu
 1. Remove 'import cupy as np' from 'chap01/abalone.ipynb' and enable 'import numpy as np'.
 2. Remove 'import cupy as np' from 'chap05/mathutil.ipynb' and enable 'import numpy as np'.
-3. Remove 'with np.cuda.Device(0):' in chap15/NLP_result.ipynb
+3. Remove 'with np.cuda.Device(0):' in chap15/NLP_result.ipynb.
 
 Unnecessary codes are inserted in the middle.
 Unnecessary operations may be performed.
